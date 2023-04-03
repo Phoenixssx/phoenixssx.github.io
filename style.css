@@ -1,0 +1,700 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #19142A;
+    
+}
+.empty1{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+#skills{
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+#statsFont{
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(153, 122, 214);
+    
+}
+
+.global{
+    width: 80%;
+    min-height: 750px;
+    margin: auto;
+    background-color: rgb(29, 30, 59);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    width: 100%;
+    min-height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    animation: princeTitleAnime 1.3s forwards;
+    position: relative;
+    
+ }
+
+ @keyframes princeTitleAnime{
+     0%{
+         top: 300px;
+         display: none;
+     }
+     
+    100%{
+        top: 0px;
+        
+    }
+ }
+#logo{
+    font-family: Copperplate, Papyrus, fantasy;
+    width: 20%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    color: white;
+}
+.html{
+    transition: 1s;
+}
+.css
+{
+    transition: 1s;
+}
+.js{
+    transition: 1s;
+}
+.html:hover{
+    background-color: rgb(126, 47, 47);
+}
+.css:hover{
+    background-color: rgb(52, 87, 128);
+}
+.js:hover{
+    background-color: rgb(123, 126, 70);
+}
+#bar{
+    width: 60%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    color: white;
+    font-size: 20px;
+
+    
+}
+#bar a{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    
+    /* background-color: rgb(83, 162, 253); */
+}
+
+#bar a:hover{
+    color:rgb(130, 165, 254);
+    
+    
+} 
+
+.titleActivated{
+    color: rgb(100, 207, 246) !important;   
+    font-weight: bold;
+    /* font-size: 37px;
+    line-height: normal; */
+}
+
+#title_btn{
+    width: 20%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#title_btn a{
+    text-decoration: none;
+    color: rgb(79, 117, 255) !important;
+}
+#btn1{
+    width: 50%;
+    height: 37px;
+    border-radius: 10px;
+    background-color: rgb(40, 40, 81);
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    border: 1px solid black;
+    transition: 0.4s;
+    
+}
+.asterisk{
+    
+    animation: aster infinite 4s linear;
+}
+@keyframes aster{
+    0%{
+        color: rgb(205, 165, 238);
+    }
+    55%{
+        color: rgb(88, 5, 88);
+    }
+    75%{
+        color: rgb(121, 35, 121);
+    }
+    100%{
+        color: rgb(202, 167, 202); 
+    }
+}
+#btn1:hover{
+    background-color: rgb(126, 190, 215);
+    color: rgb(0, 0, 0) ;
+}
+.mid_part{
+    width: 100%;
+    min-height: 700px;
+    background-image: linear-gradient(to right , rgb(28, 36, 60),rgb(30, 73, 116) , #a86161 );
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+.mid_part:hover{
+    background-color: rgb(31, 45, 79);
+    color: black;
+}
+.mid_left{
+    width: 60%;
+    height: 600px;
+    /* background-color: rgb(3, 3, 53); */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mid_left h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    color: white;
+    animation: princeTitleAnime 1.3s;
+    position: relative;
+    /* top: -100px; */
+    
+}
+@keyframes princeTitleAnime{
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.mid_left p{
+    padding-top:15px;
+    font-size: 17px;
+    color: gray;
+    animation: princeTitleAnime 1.3s;
+    position: relative;
+    /* top: -100px; */
+    
+}
+@keyframes princeTitleAnime{
+    0%{
+        top: -500px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.mid_left ul{
+   display: flex;
+   animation: princeUlAnime 1.3s forwards;
+   position: relative;
+   /* top: -100px; */
+   
+}
+@keyframes princeUlAnime{
+    0%{
+        top: 300px;
+        display: none;
+    }
+    
+   100%{
+       top: 0px;
+       
+   }
+}
+.icon_box{
+    width: 7%;
+    height: 40px;
+    /* background-color: rgb(31, 31, 65); */
+    border-radius: 50%;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.mid_right{
+    width: 40%;
+    height: 600px;
+    /* background-color: #2C2626; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid_right img{
+    width: 50%;
+    border-radius: 50%;
+    animation: turningLoop 60s infinite linear;
+    /* animation: princeImg 1.5s; */
+    position: relative;
+}
+@keyframes princeImg{
+    0%{
+        right: -350px;
+    }
+   
+    100%{
+        right: 0px;
+
+    }
+}
+
+@keyframes turningLoop{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(25deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-25deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+
+    }
+}
+.part2{
+    width: 100%;
+    min-height: 800px;
+    /* background-color:rgb(25, 26, 58); */
+    background-image: linear-gradient(to bottom ,rgb(25, 26, 58) , rgb(82, 83, 131) );
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    transition: 0.9s;
+}
+
+
+#html{
+    width: 70%;
+    height: 60px;
+}
+#html_pourcent{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(53, 41, 41);
+}
+#ps_html{
+    
+    width: 0%;
+    height: 100%;
+    background-color: rgb(251, 0, 0);
+    animation: ht 2s   1s forwards ;
+}
+@keyframes ht{
+    0%{
+        background-color: rgb(155, 232, 13);
+        width: 0%;
+    }
+
+    55%{
+        background-color: rgb(255, 60, 0);
+    }
+    100%{
+        background-color: rgb(255, 0, 0);
+        width: 70%;
+    }
+}
+
+#css{
+    width: 70%;
+    height: 60px;
+}
+#css_pourcent{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(39, 55, 58);
+}
+#ps_css{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(0, 205, 251);
+    animation: cs 2s   forwards 2s;
+}
+@keyframes cs{
+    0%{
+        background-color: rgb(109, 114, 124);
+        width: 0%;
+    }
+
+    55%{
+        background-color: rgb(52, 77, 219);
+    }
+    100%{
+        background-color: rgb(0, 204, 255);
+        width: 80%;
+    }
+}
+
+#js{
+    width: 70%;
+    height: 60px;
+}
+#js_pourcent{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(80, 78, 49);
+}
+#ps_js{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(251, 243, 0);
+    animation: jjs 2s 3s forwards;
+}
+@keyframes jjs{
+    0%{
+        background-color: rgb(133, 214, 119);
+        width: 0%;
+    }
+
+    55%{
+        background-color: rgb(165, 237, 93);
+    }
+    100%{
+        background-color: rgb(255, 247, 0);
+        width: 85%;
+    }
+}
+
+
+
+.part3_aboutMe{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(41, 49, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.part3_aboutMe:hover{
+    
+    background-color: rgb(44, 53, 93);
+    
+}
+
+.part3_aboutMe_center{
+    width: 80%;
+    height: 80%;
+    
+    
+}
+.part3_aboutMe_center h2{
+    font-size: 40px;
+    color: white;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+#aboutMe_desc{
+    color: rgb(128, 149, 211);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    /* padding: 40px 100px 100px 0; */
+    line-height: 2;
+   
+    
+    overflow: hidden;
+    display: inline-block;
+    
+    padding-top: 30px;
+    font-size: 22px;
+    
+}
+
+.part3_aboutMe_title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part3_aboutMe_button{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(117, 80, 80); */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#part3_aboutMe_btnFR{
+    width: 40%;
+    height: 30px;
+    border:2px solid rgb(0, 26, 255);
+    border-radius: 10px;
+    background-color: rgb(42, 63, 149);
+    color: white;
+}
+#part3_aboutMe_btnEN{
+    width: 40%;
+    height: 30px;
+    border:2px solid rgb(70, 3, 133);
+    border-radius: 10px;
+    background-color: rgb(139, 37, 78);
+    color: white;
+}
+
+
+
+#part3_aboutMe_btnFR:hover{
+    background-color: rgb(74, 110, 255);
+}
+#part3_aboutMe_btnEN:hover{
+    background-color: rgb(250, 77, 146);
+}
+
+
+
+
+.part4_portfolio{
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(41, 49, 84);
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.part4_portfolio_title{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+
+    animation: portfolio 3s infinite linear;
+}
+
+@keyframes portfolio{
+    0%{
+        color: rgb(149, 183, 251);
+    }
+    55%{
+        color: rgb(182, 208, 241);
+    }
+    100%{
+        color: rgb(158, 190, 255);
+    }
+}
+.part4_portfolio_container{
+    width: 100%;
+    min-height: 100%;
+    /* background-color: rebeccapurple; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.part4_portfolio_box{
+    width: 25%;
+    height: 350px;
+    background-color: black;
+    border-radius: 25px;
+}
+.part4_portfolio_box_title{
+    width: 100%;
+    height: 70px;
+
+    border-radius: 25px 25px 0 0;
+    background-color: rgb(61, 71, 109);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 29px;
+    color: white;
+    
+
+    
+}
+.part4_portfolio_box_title a{
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+.part4_portfolio_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.part5_ContactMeGlobal{
+    width: 100%;
+    height: 0px;
+    background-image: url(./img/mail.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation: bgImg 2s forwards;
+}
+@keyframes bgImg{
+    0%{
+        height: 0px ;
+    }
+    100%{
+        height: 800px;
+    }
+
+}
+
+.part5_ContactMe{
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    
+    background-color: #292f599c;
+    border-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.part5_ContactMe_top{
+    width: 100%;
+    height: 90px;
+    border-radius: 20px 20px 0 0;
+    background-color: #18143d;
+
+    color: #749de5;
+    padding: 0 30px 0 30px;
+    font-size: 21px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part5_ContactMe_mid1{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #8e9fec;
+    font-size: 25px;
+    color: #5764dd;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.part5_ContactMe_mid1 span{
+    width: 0;
+    color: rgb(174, 236, 254);
+    padding-left: 10px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    
+    animation: typing 6s steps(90, end) 1s forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+      border-right:1px solid rgb(143, 173, 248);
+    }
+    to {
+      width: 41%;
+    }
+  }
+
+.part5_ContactMe_mid2{
+    width: 100%;
+    height:300px;
+    color: rgb(174, 236, 254);
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 25px;
+    padding: 30px;
+    /* animation: typing2 4s steps(90, end) 1s forwards; */
+}
+.part5_ContactMe_mid2 p{
+    width: 0%;
+    overflow: hidden;
+    /* background-color: cadetblue; */
+    animation: typing2 4s steps(90, end) 5s forwards;
+    
+    
+ }
+    
+@keyframes typing2 {
+    from 
+    {
+      width:0%;
+      border-right:1px solid rgb(143, 173, 248);
+      /* background-color: red; */
+    }
+    to 
+    {
+      width: 51%;
+    }
+
+    }
+
+
+
